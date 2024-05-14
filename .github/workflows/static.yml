@@ -1,6 +1,11 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# name: Deploy static content to Pages 
+# (Original Code)
 
+# Firebase System Host Running Code
+  uses: FirebaseExtended/action-hosting-deploy@v0.7.1
+  name: Deploy to Firebase Hosting
+  
 on:
   # Runs on pushes targeting the default branch
   push:
